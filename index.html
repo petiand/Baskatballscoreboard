@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <h3>GAME TIME</h3>
+            <h3 id="timer"><SPAN  id="min">0</SPAN> : <SPAN  id="sec">0</SPAN> </h3>
+        </div>
+        <div>
+            <button class="btn-timer" id="startBtn" onclick="start()">START</button>
+            <button class="btn-timer" id="pauseBtn" onclick="pauseCheck()">PAUSE</button>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <p class="scoreHome" id="homeScore">0</p>
+                <div class="btn-group">
+                    <button class="btn-score" onclick="addHome1()">+1</button>
+                    <button class="btn-score" onclick="addHome2()">+2</button>
+                    <button class="btn-score" onclick="addHome3()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <p class="scoreGuest" id="scoreGuest">0</p>
+                <div class="btn-group" id="guestScore">
+                    <button class="btn-score" onclick="addGuest1()">+1</button>
+                    <button class="btn-score" onclick="addGuest2()">+2</button>
+                    <button class="btn-score" onclick="addGuest3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script lang="Javascript" src="index.js">
+            console.log("hrllo")
+        </script>
+    </body>
+</html>
