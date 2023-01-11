@@ -72,4 +72,8 @@ function reset() {
     s.innerText = 0;
     scoreG.textContent = 0;
     scoreH.textContent = 0;
+    mcount = 0;
+    scount = 0;
+    countH = 0;
+    countG = 0;
 }
