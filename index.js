@@ -65,3 +65,11 @@ function start() {
             }
         }
 }
+
+function reset() {
+    p = true;
+    m.innerText = 0;
+    s.innerText = 0;
+    scoreG.textContent = 0;
+    scoreH.textContent = 0;
+}

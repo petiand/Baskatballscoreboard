@@ -24,7 +24,7 @@ h3 {
 .scoreHome, .scoreGuest {
     margin-top: 21px;
     margin-bottom: 0;
-    width: 155px;
+    width: 220px;
     height: 120px;
     font-family: 'Cursed Timer ULiL', sans-serif;    
     color: #F94F6D; 
@@ -51,7 +51,7 @@ h3 {
 .btn-group {
     justify-content: space-between;
     display: flex;
-    width: 155;
+    width: 220;
     height: 45;
     margin-top: 25px;  
 }
@@ -80,4 +80,16 @@ h3 {
     font-size: 50px;
     font-family: 'Cursed Timer ULiL', sans-serif;
     margin:30 10 0 10;
+}
+
+#reset-btn {
+    color: #9AABD8;
+    background-color: #1B244A;
+    border-color: #9AABD8;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin:40 0 40 0;
 }
